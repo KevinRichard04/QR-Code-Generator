@@ -1,0 +1,83 @@
+*{
+  padding: 0%;
+  margin: 0%;
+  font-family: 'Roboto', sans-serif;
+}
+
+.overall-bg{
+  background-color: #2f3339;
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0;
+  bottom: 0;
+  z-index: -1;
+}
+
+.headerBar{
+  background-color: #6a7483;
+  padding: 30px;
+  z-index: 2;
+  border: none;
+  border-radius: 40px;
+  margin-top: 10px;
+  margin-left: 10px;
+  margin-right: 10px;
+  
+  
+}
+
+.Header-bar-text{
+  text-align: center;
+  color: #b6bcc5;
+  
+}
+
+.link-box{
+  background-color: #6a7483;
+  position:absolute;
+  top: 30%;
+  left: 40%;
+  width: 25%;
+  height: 50%;
+  text-align: center;
+  border: none;
+  border-radius: 25px;
+}
+.link-box p{
+  font-size: 28px;
+  color: #b6bcc5;
+  margin-top: 20px;
+}
+.input-box{
+  text-align: center;
+  margin-top: 12%;
+  border-radius: 25px;
+}
+
+.input-box input{
+  font-size: 20px;
+  color: black;
+  background-color: #c6c5da;
+  border-radius: 25px;
+  padding: 10px;
+  border: none;
+}
+
+.input-box button{
+  font-size: 18px;
+  border-radius: 25px ;
+  padding: 3px;
+  color: black;
+  border: none;
+  background-color: #c6c5da;
+}
+
+.qrCode{
+  position: absolute;
+  top: 50%;
+  left: 25%;
+  right: 25%;
+  transition: 3s;
+}
+
